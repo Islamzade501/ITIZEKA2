@@ -1,0 +1,18 @@
+<svg width="1440.000000" height="306.000000" viewBox="0 0 1440 306" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip44_236">
+			<rect id="instagram" width="45.000000" height="45.000000" transform="translate(55.000000 170.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Rectangle 27" width="1440.000000" height="306.000000" fill="#F78A15" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip44_236)">
+		<path id="path" d="M86.87 175.62L68.12 175.62C63.98 175.62 60.62 178.98 60.62 183.12L60.62 201.87C60.62 206.01 63.98 209.37 68.12 209.37L86.87 209.37C91.01 209.37 94.37 206.01 94.37 201.87L94.37 183.12C94.37 178.98 91.01 175.62 86.87 175.62Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M68.12 175.62C63.98 175.62 60.62 178.98 60.62 183.12L60.62 201.87C60.62 206.01 63.98 209.37 68.12 209.37L86.87 209.37C91.01 209.37 94.37 206.01 94.37 201.87L94.37 183.12C94.37 178.98 91.01 175.62 86.87 175.62L68.12 175.62Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<path id="path" d="M77.5 200C81.64 200 85 196.64 85 192.5C85 188.35 81.64 185 77.5 185C73.35 185 70 188.35 70 192.5C70 196.64 73.35 200 77.5 200Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M85 192.5C85 188.35 81.64 185 77.5 185C73.35 185 70 188.35 70 192.5C70 196.64 73.35 200 77.5 200C81.64 200 85 196.64 85 192.5Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<path id="path" d="M87.81 184.06C88.84 184.06 89.68 183.22 89.68 182.18C89.68 181.15 88.84 180.31 87.81 180.31C86.77 180.31 85.93 181.15 85.93 182.18C85.93 183.22 86.77 184.06 87.81 184.06Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

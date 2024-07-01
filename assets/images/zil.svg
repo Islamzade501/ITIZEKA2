@@ -1,0 +1,17 @@
+<svg width="26.000000" height="25.000000" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>
+            Created with Pixso.
+    </desc>
+    <defs>
+        <clipPath id="clip44_170">
+            <rect id="Remind" width="26.000000" height="25.000000" fill="white" fill-opacity="0"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip44_170)">
+        <path id="path" d="M13 2.11C8.81 2.11 5.41 5.43 5.41 9.53L5.41 20.12L20.58 20.12L20.58 9.53C20.58 5.43 17.18 2.11 13 2.11Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+        <path id="path" d="M5.41 20.87C5.83 20.87 6.16 20.54 6.16 20.12L19.83 20.12C19.83 20.54 20.16 20.87 20.58 20.87C21 20.87 21.33 20.54 21.33 20.12L21.31 20.1L20.58 20.1L20.58 9.53C20.58 5.43 17.18 2.11 13 2.11C8.81 2.11 5.41 5.43 5.41 9.53L5.41 20.1L4.68 20.1L4.66 20.12C4.66 20.54 4.99 20.87 5.41 20.87ZM2.18 20.85L2.16 20.87C1.74 20.87 1.41 20.54 1.41 20.12C1.41 19.7 1.74 19.37 2.16 19.37L2.18 19.39L2.18 20.85ZM23.83 19.37L23.81 19.39L23.81 20.85L23.83 20.87C24.25 20.87 24.58 20.54 24.58 20.12C24.58 19.7 24.25 19.37 23.83 19.37Z" fill="#000000" fill-opacity="0" fill-rule="evenodd"/>
+        <path id="path" d="M5.41 20.12L5.41 9.53C5.41 5.43 8.81 2.11 13 2.11C17.18 2.11 20.58 5.43 20.58 9.53L20.58 20.12M2.16 20.12L23.83 20.12" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+        <path id="path" d="M13 23.3C14.49 23.3 15.7 22.11 15.7 20.65L15.7 20.12L10.29 20.12L10.29 20.65C10.29 22.11 11.5 23.3 13 23.3Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+        <path id="path" d="M15.7 20.65L15.7 20.12L10.29 20.12L10.29 20.65C10.29 22.11 11.5 23.3 13 23.3C14.49 23.3 15.7 22.11 15.7 20.65Z" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+    </g>
+</svg>

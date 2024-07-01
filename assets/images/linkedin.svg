@@ -1,0 +1,19 @@
+<svg width="1440.000000" height="306.000000" viewBox="0 0 1440 306" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip44_240">
+			<rect id="instagram" width="47.000000" height="37.000000" transform="translate(54.000000 232.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Rectangle 27" width="1440.000000" height="306.000000" fill="#F78A15" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip44_240)">
+		<ellipse id="circle" cx="62.812500" cy="238.166779" rx="3.916667" ry="3.083333" fill="#000000" fill-opacity="0"/>
+		<ellipse id="circle" cx="62.812500" cy="238.166779" rx="3.916667" ry="3.083333" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<rect id="rect" x="58.895844" y="245.875061" width="7.833333" height="19.270832" fill="#000000" fill-opacity="0"/>
+		<rect id="rect" x="58.895844" y="245.875061" width="7.833333" height="19.270832" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<path id="path" d="M74.56 253.19L74.56 265.14L81.41 265.14L81.41 254.35C81.41 252.42 82.88 250.88 85.33 250.88C87.78 250.88 89.25 252.81 89.25 254.35L89.25 265.14L96.1 265.14L96.1 253.19C96.1 250.88 92.67 245.87 85.33 245.87C77.98 245.87 74.56 250.88 74.56 253.19Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M74.56 265.14L81.41 265.14L81.41 254.35C81.41 252.42 82.88 250.88 85.33 250.88C87.78 250.88 89.25 252.81 89.25 254.35L89.25 265.14L96.1 265.14L96.1 253.19C96.1 250.88 92.67 245.87 85.33 245.87C77.98 245.87 74.56 250.88 74.56 253.19L74.56 265.14Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	</g>
+</svg>

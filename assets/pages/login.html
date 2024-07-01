@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/css/login.css" />
+  </head>
+  <body>
+    <section>
+      <div class="forum-main">
+        <div class="forum">
+          <h2 class="giris-text">Giriş</h2>
+          <div class="inputs">
+            <input
+              type="text"
+              id="username"
+              placeholder="Istifadəçi Adı və ya Email Daxil Edin"
+            />
+            <input type="password" id="password" placeholder="Şifrə" />
+            <a class="forgot-password">Şifrəmi unutdum</a>
+            <button class="login-btn" onclick="login()">Giriş</button>
+            <div class="separator">vəya</div>
+            <div class="social-icons">
+              <img src="/assets/images/google.svg" alt="Google Login" />
+              <img src="/assets/images/apple-back.svg" alt="Apple Login" />
+            </div>
+            <a class="a-hr" href="/assets/pages/register.html"
+              >Üzv deyilsən? Qeydiyyatdan Keç</a
+            >
+          </div>
+        </div>
+        <div class="forum-image">
+          <img src="/assets/images/Welcome.svg" alt="Welcome Image" />
+        </div>
+      </div>
+    </section>
+
+    <script src="/assets/scripts/login.js"></script>
+  </body>
+</html>
