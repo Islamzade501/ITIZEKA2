@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/add-event.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <header>
+        <div class="header-main-div">
+          <p>Code Wizards</p>
+          <nav aria-label="Main Navigation">
+            <ul>
+              <li><a href="/assets/pages/home.html">Ana səhifə</a></li>
+              <!-- <li><a href="#">Yeni Layihələr</a></li> -->
+              <li><a href="/assets/pages/about.html">Haqqımızda</a></li>
+              <li><a href="/assets/pages/contact.html">Əlaqə</a></li>
+              <li><a href="#">Kateqolariyalar</a></li>
+            </ul>
+          </nav>
+          <div class="right-side">
+            <button class="add-event-button">
+              <a href="#">+ Tədbirinizi Əlavə Edin</a>
+            </button>
+            <div class="notification">
+              <a href="#">
+                <img src="/assets/images/zil.svg" alt="Notification icon" />
+              </a>
+              <p>0</p>
+            </div>
+            <a href="">
+              <img
+                class="chatbox-css"
+                src="/assets/images/chat-bubble-svgrepo-com.svg"
+                alt=""
+              />
+            </a>
+            <a href="/assets/pages/info.html">
+              <img src="/assets/images/guest.svg" alt="Guest icon" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <body>
+        <div class="container">
+          <h1>Tədbir Əlavə Et</h1>
+          <form id="eventForm">
+            <div>
+              <label for="eventName">Tədbir Adı:</label>
+              <input type="text" id="eventName" name="eventName" required />
+            </div>
+            <div>
+              <label for="eventDate">Tarix:</label>
+              <input type="date" id="eventDate" name="eventDate" required />
+            </div>
+            <div>
+              <label for="eventTime">Saat:</label>
+              <input type="time" id="eventTime" name="eventTime" required />
+            </div>
+            <div>
+              <label for="eventLocation">Məkan:</label>
+              <input
+                type="text"
+                id="eventLocation"
+                name="eventLocation"
+                required
+              />
+            </div>
+            <label for="eventDescription">Tədbir Haqqında:</label>
+            <textarea
+              id="eventDescription"
+              name="eventDescription"
+              rows="4"
+              required
+            ></textarea>
+
+            <button type="submit">Sorğu göndər</button>
+          </form>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>

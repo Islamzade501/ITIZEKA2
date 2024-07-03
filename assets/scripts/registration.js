@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     users.push(newUser);
     localStorage.setItem("users", JSON.stringify(users));
 
-    alert("Qeydiyyatdan keçdiniz!");
+    // alert("Qeydiyyatdan keçdiniz!");
     window.location.href = "/assets/pages/login.html";
   }
 

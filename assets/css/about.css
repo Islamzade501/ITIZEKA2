@@ -85,7 +85,6 @@ nav ul li a:hover {
   margin-left: 3rem;
   margin-top: -5rem;
 }
-
 .about-wizard img {
   position: absolute;
   margin-top: 22px;
@@ -276,4 +275,523 @@ footer {
 
 .footer-main img {
   max-width: 150px;
+}
+
+.add-event-button {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+header {
+  background: rgb(255, 132, 0);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-main-div p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.notification p {
+  margin: 0 0 0 5px;
+  font-size: 18px;
+}
+
+.right-side a {
+  margin: 0 10px;
+}
+
+.right-side a:last-child {
+  margin-left: 0;
+}
+
+.about-header {
+  color: rgb(35, 34, 41);
+  font-family: Tahoma;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: -5rem;
+}
+
+.ox {
+  margin-top: 20px;
+}
+
+.button-about {
+  background-color: black;
+  margin-left: 3rem;
+  color: rgb(255, 251, 247);
+  font-family: Sitara;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 108px;
+  height: 46px;
+  padding-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-information-home {
+  display: flex;
+}
+.code-wizards-about {
+  color: rgb(0, 0, 0);
+  font-family: Sitara;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 621px;
+  height: 137px;
+  margin-top: 141px;
+  margin-left: 39px;
+}
+
+.ova {
+  margin-right: -30rem;
+}
+
+.arakesme1 {
+  margin-top: 5rem;
+}
+
+.boxs {
+  display: flex;
+  gap: 6rem;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box p {
+  margin-top: 15px;
+}
+
+.narinci-ova {
+  position: absolute;
+  margin-left: 80rem;
+}
+
+.tedbir {
+  color: rgb(35, 34, 41);
+  font-family: Tahoma;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 27px;
+}
+
+.arakesme-td {
+  margin-top: 20px;
+}
+.home-footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+.contact-footer h2 {
+  color: white;
+}
+.sections {
+  height: 500px;
+}
+.home-footer {
+  background-color: black;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-footer h2,
+.footer-main div:nth-child(3) h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-footer ul,
+.footer-main div:nth-child(3) ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-footer ul li,
+.footer-main div:nth-child(3) ul li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact-footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.contact-footer ul li a:hover {
+  color: #003366;
+}
+
+footer {
+  overflow: hidden;
+}
+.contact-footer p {
+  margin-top: 20px;
+  color: white;
+}
+
+.footer-main img {
+  max-width: 150px;
+}
+.chatbox-css {
+  width: 35px;
+  height: 35px;
+}
+
+.add-event-button {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+header {
+  background: rgb(255, 132, 0);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-main-div p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.notification p {
+  margin: 0 0 0 5px;
+  font-size: 18px;
+}
+
+.right-side a {
+  margin: 0 10px;
+}
+
+.right-side a:last-child {
+  margin-left: 0;
+}
+
+.about-header {
+  color: rgb(35, 34, 41);
+  font-family: Tahoma;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: -5rem;
+}
+
+.ox {
+  margin-top: 20px;
+}
+
+.button-about {
+  background-color: black;
+  margin-left: 3rem;
+  color: rgb(255, 251, 247);
+  font-family: Sitara;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 108px;
+  height: 46px;
+  padding-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-information-home {
+  display: flex;
+}
+.code-wizards-about {
+  color: rgb(0, 0, 0);
+  font-family: Sitara;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 621px;
+  height: 137px;
+  margin-top: 141px;
+  margin-left: 39px;
+}
+
+.ova {
+  margin-right: -30rem;
+}
+
+.arakesme1 {
+  margin-top: 5rem;
+}
+
+.boxs {
+  display: flex;
+  gap: 6rem;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box p {
+  margin-top: 15px;
+}
+
+.narinci-ova {
+  position: absolute;
+  margin-left: 80rem;
+}
+
+.tedbir {
+  color: rgb(35, 34, 41);
+  font-family: Tahoma;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 27px;
+}
+
+.arakesme-td {
+  margin-top: 20px;
+}
+.home-footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+.contact-footer h2 {
+  color: white;
+}
+.sections {
+  height: 500px;
+}
+.home-footer {
+  background-color: black;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-footer h2,
+.footer-main div:nth-child(3) h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-footer ul,
+.footer-main div:nth-child(3) ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-footer ul li,
+.footer-main div:nth-child(3) ul li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact-footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.contact-footer ul li a:hover {
+  color: #003366;
+}
+
+footer {
+  overflow: hidden;
+}
+.contact-footer p {
+  margin-top: 20px;
+  color: white;
+}
+
+.footer-main img {
+  max-width: 150px;
+}
+.chatbox-css {
+  width: 35px;
+  height: 35px;
+}
+
+.add-event-button {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  margin-right: 30px;
 }

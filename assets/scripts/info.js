@@ -1,37 +1,42 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Function to retrieve data from local storage and display it in the appropriate elements
-  function displayUserInfo(emailToFind) {
-    const usersData = localStorage.getItem("users");
-    if (usersData) {
+  const usersData = localStorage.getItem("users");
+  if (usersData) {
+    try {
       const usersArray = JSON.parse(usersData);
-      const userObj = usersArray.find((user) => user.email === emailToFind);
+      console.log("Parsed users array: ", usersArray);
+      // Assuming you want to find the first user object in the array
+      const userObj = usersArray.find((user) => user); // Adjust the condition as needed
 
       if (userObj) {
-        const userName = userObj.name || "Adınızı daxil edin";
-        const userSurname = userObj.surname || "Soyadınızı daxil edin";
-        const userEmail = userObj.email || "Emailinizi daxil edin";
-        const userPhone = userObj.phone || "Telefon nömrənizi daxil edin";
-        const userSchool = userObj.school || "Məktəbinizi daxil edin";
-        const userAddress = userObj.address || "Adresinizi daxil edin";
+        console.log(`Emailiniz: ${userObj.email || "Emailinizi daxil edin"}`);
 
-        document.getElementById("user-name").textContent += ` ${userName}`;
-        document.getElementById(
-          "user-surname"
-        ).textContent += ` ${userSurname}`;
-        document.getElementById("user-email").textContent += ` ${userEmail}`;
-        document.getElementById("user-phone").textContent += ` ${userPhone}`;
-        document.getElementById("user-school").textContent += ` ${userSchool}`;
-        document.getElementById(
-          "user-address"
-        ).textContent += ` ${userAddress}`;
+        const userInfo = {
+          "user-email": "Emailiniz:" + userObj.email || "Emailinizi daxil edin",
+          "user-phone":
+            "Telefon Nömrəniz:" + userObj.phone ||
+            "Telefon nömrənizi daxil edin",
+          "user-school":
+            "Təhsil aldığınız məktəb:" + userObj.school ||
+            "Məktəbinizi daxil edin",
+          "user-address":
+            "Addresiniz:" + userObj.address || "Adresinizi daxil edin",
+        };
+
+        for (const [id, value] of Object.entries(userInfo)) {
+          const element = document.getElementById(id);
+          if (element) {
+            element.textContent = value;
+          } else {
+            console.error(`Element with id '${id}' not found`);
+          }
+        }
       } else {
         console.error("User not found");
       }
-    } else {
-      console.error("No users data found in local storage");
+    } catch (error) {
+      console.error("Error parsing JSON from local storage:", error);
     }
+  } else {
+    console.error("İstifadəçi tapılmadı");
   }
-
-  // Call the function to display user info on page load
-  displayUserInfo("qarayev.mehdi@gmail.com");
 });

@@ -2,10 +2,8 @@ function login() {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  // Get the user data from local storage
   const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-  // Check if user exists and the password matches
   const user = storedUsers.find(
     (user) =>
       (user.email === username || user.username === username) &&
@@ -14,9 +12,9 @@ function login() {
 
   if (user) {
     alert("Login successful!");
-    window.location.href = "/assets/pages/home.html"; 
+    window.location.href = "/assets/pages/home.html";
   } else {
-    alert("Invalid username or password");
+    alert("Istifadəçi adı vəya şifrə yalnışdır");
   }
 }
 
@@ -36,6 +34,3 @@ function registerUser() {
 
   localStorage.setItem("users", JSON.stringify(users));
 }
-
-// Uncomment the following line to simulate user registration (for testing purposes)
-// registerUser();
